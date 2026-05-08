@@ -767,11 +767,14 @@ p { margin: 0 0 1rem; color: var(--muted); }
     text-align: center;
   }
   .delivery-carousel {
-    grid-template-columns: 1fr;
-    gap: .6rem;
+    grid-template-columns: auto 1fr auto;
+    gap: .4rem;
   }
   .delivery-nav {
-    display: none;
+    display: inline-flex;
+    width: 34px;
+    height: 34px;
+    font-size: 1.15rem;
   }
   .delivery-slide {
     flex-basis: clamp(220px, 90vw, 420px);
